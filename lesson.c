@@ -23,12 +23,24 @@
 //     return 0;
 // }
 
+// int main(void) 
+// {
+//     char ch;
+
+//     ch = 'd';
+//     printf("ch = %c, code = %d\n", ch, ch);
+
+//     return 0;
+// }
+
 int main(void) 
 {
-    char ch;
+    int x = 5, y = 10, res;
+    x*=5;
+    x--;
 
-    ch = 'd';
-    printf("ch = %c, code = %d\n", ch, ch);
+    res = x + y;
+    printf("Variable: %d + %d = %d\n", x, y, res);
 
     return 0;
 }
