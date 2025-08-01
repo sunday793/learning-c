@@ -45,11 +45,25 @@
 //     return 0;
 // }
 
-#include <stdbool.h>
+// #include <stdbool.h>
+
+// int main(void) 
+// {
+//     bool hasCar = true;
+
+//     return 0;
+// }
 
 int main(void) 
 {
-    bool hasCar = true;
+    float x = 5.5f, y = 6.67f, res;
+
+    res = x/y;
+    //printf("Result: %f\n", res);
+    printf("Result: %.2f\n", res);
+
+    char s = 'S';
+    printf("%c", s);
 
     return 0;
 }
