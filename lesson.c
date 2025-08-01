@@ -56,6 +56,8 @@
 
 int main(void) 
 {
+    const short A = 0; // constanta
+    
     float x = 5.5f, y = 6.67f, res;
 
     res = x/y;
